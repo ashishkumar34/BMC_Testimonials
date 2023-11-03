@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <style>
+      .testimonial-container {
+        width: 300px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .testimonial-slider {
+        display: flex;
+        width: max-content;
+        transition: transform 0.5s;
+      }
+
+      .box4 {
+        width: 200px;
+        height: 200px;
+        padding: 20px 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        border-radius: 20px;
+        border: 1.2px solid var(--primary-neptune-04, #EFEBFF);
+        background: var(--White, #FFF);
+        box-shadow: 0px -1.2px 0px 0px rgba(0, 0, 0, 0.08) inset, 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+        margin-left: 4px;
+      }
+
+      .box3 {
+        width: 210px;
+        height: 200px;
+        padding: 20px 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        border-radius: 20px;
+        border: 1.2px solid var(--primary-neptune-04, #EFEBFF);
+        background: var(--White, #FFF);
+        box-shadow: 0px -1.2px 0px 0px rgba(0, 0, 0, 0.08) inset, 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+        margin-left: 10px;
+      }
+
+      .heading {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 12px;
+        vertical-align: baseline;
+      }
+
+      .heading-text {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 4px;
+      }
+
+      .heading1 {
+        color: var(--shades-charcoal, #181824);
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      .subheading {
+        color: var(--shades-charcoal-60, #6A6A86);
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        /* 141.667% */
+      }
+
+      .body {
+        margin-top: 20px;
+        width: 100%;
+        color: var(--shades-charcoal, #181824);
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */
+      }
+
+      .textHL1 {
+        margin-top: 20px;
+        width: 100%;
+        color: #139FB3;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */
+      }
+
+      .textHL2 {
+        margin-top: 20px;
+        width: 100%;
+        color: #F13652;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */
+      }
+
+      .textHL3 {
+        margin-top: 20px;
+        width: 100%;
+        color: #F8B700;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Proxima Soft;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="testimonial-container">
+      <div class="testimonial-slider">
+        <div class="box4">
+          <div class="heading">
+            <img src="https://byjus.com/_next/image/?url=https%3A%2F%2Fprod-mathcompanion.byjusweb.com%2F_next%2Fstatic%2Fmedia%2FParent1.32ff1ecc.jpeg&w=1200&q=75" style="width:40px; height:40px; border-radius:50%;">
+            <div class="heading-text">
+              <div class="heading1">Talulope Adekoya</div>
+              <div class="subheading">Father of David</div>
+            </div>
+          </div>
+          <div class="body">
+            BYJU’S math class has helped David to <span class="textHL1"> overcome his anxiety for math </span> and also given him a lot of confidence with calculations. His teacher is really doing a great job and this really makes him <span class="textHL1">look forward to each class</span>.
+          </div>
+        </div>
+
+        <div class="box3">
+          <div class="heading">
+            <img src="https://byjus.com/_next/image/?url=https%3A%2F%2Fprod-mathcompanion.byjusweb.com%2F_next%2Fstatic%2Fmedia%2FParent2.2c36e5e4.jpg&w=1920&q=75" style="width:40px; height:40px; border-radius:50%;">
+            <div class="heading-text">
+              <div class="heading1">Jasmin Kutes</div>
+              <div class="subheading">Mother of Nikita</div>
+            </div>
+          </div>
+          <div class="body">
+            <span class="textHL2">Nikita struggled with math anxiety</span>, making her fear the subject and resist learning. However, since she started learning from your teacher, there has been a remarkable improvement in her attitude toward math.
+          </div>
+        </div>
+
+        <div class="box3">
+          <div class="heading">
+            <img src="https://byjus.com/_next/image/?url=https%3A%2F%2Fprod-mathcompanion.byjusweb.com%2F_next%2Fstatic%2Fmedia%2FParent3.d28278b6.jpg&w=1920&q=75" style="width:40px; height:40px; border-radius:50%;">
+            <div class="heading-text">
+              <div class="heading1">Benny VP</div>
+              <div class="subheading">Father of Venita</div>
+            </div>
+          </div>
+          <div class="body">
+            The teacher here are very patient and teach you <span class="textHL3">hard concepts in a easy-to-understand and engaging way</span>. I was able to build my confidence while also improving my grades. <span class="textHL3">I'm now excited to learn Math</span>!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const slider = document.querySelector('.testimonial-slider');
+    const testimonialWidth = 246; // Width of each testimonial box
+    const containerWidth = 300; // Width of the container
+    let currentIndex = 2;
+    let isDragging = false;
+    let startPointerPosition = 0;
+    let startTranslate = 0;
+    let timer;
+
+    function goToTestimonial(index) {
+      currentIndex = index;
+      const offset = -testimonialWidth * index; // Adjusted offset
+      slider.style.transition = 'transform 0.5s';
+      slider.style.transform = `translateX(${offset}px)`;
+    }
+
+    function nextTestimonial() {
+      currentIndex = (currentIndex + 1) % 3; // Assuming there are 4 testimonials in total
+      goToTestimonial(currentIndex);
+    }
+
+    function autoSlide() {
+      nextTestimonial();
+      setTimeout(autoSlide, 3000); // Slide every 3 seconds
+    }
+
+    // Initial position and auto-slide start
+    goToTestimonial(currentIndex); // Set the initial position to the leftmost testimonial
+    autoSlide();
+
+    let pointerStartX = 0;
+
+    slider.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startPointerPosition = e.clientX;
+      pointerStartX = startPointerPosition;
+      startTranslate = currentIndex * testimonialWidth;
+      slider.style.transition = 'transform 0s'; // Disable transition during dragging
+    });
+
+    slider.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      startPointerPosition = e.touches[0].clientX;
+      pointerStartX = startPointerPosition;
+      startTranslate = currentIndex * testimonialWidth;
+      slider.style.transition = 'transform 0s'; // Disable transition during dragging
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        const pointerPosition = e.clientX;
+        const diff = pointerPosition - pointerStartX;
+        const translate = startTranslate + diff;
+        slider.style.transform = `translateX(${translate}px)`;
+      }
+    });
+
+    document.addEventListener('touchmove', (e) => {
+      if (isDragging) {
+        const pointerPosition = e.touches[0].clientX;
+        const diff = pointerPosition - pointerStartX;
+        const translate = startTranslate + diff;
+        slider.style.transform = `translateX(${translate}px)`;
+      }
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (isDragging) {
+        isDragging = false;
+        // Calculate the current translate position based on the new currentIndex
+        const currentTranslate = -testimonialWidth * currentIndex;
+        slider.style.transition = 'transform 0.5s';
+        slider.style.transform = `translateX(${currentTranslate}px)`;
+      }
+    });
+
+    document.addEventListener('touchend', (e) => {
+      if (isDragging) {
+        isDragging = false;
+        const pointerPosition = e.changedTouches[0].clientX;
+        const diff = pointerPosition - startPointerPosition;
+        const threshold = testimonialWidth / 2;
+
+        // Determine the new index based on the swipe direction
+        if (diff > threshold) {
+          currentIndex = (currentIndex - 1 + 3) % 3;
+        } else if (diff < -threshold) {
+          currentIndex = (currentIndex + 1) % 3;
+        }
+
+        // Calculate the current translate position based on the new currentIndex
+        const currentTranslate = -testimonialWidth * currentIndex;
+        slider.style.transition = 'transform 0.5s';
+        slider.style.transform = `translateX(${currentTranslate}px)`;
+        // Clear the existing timer and start a new one
+        clearTimeout(timer);
+        timer = setTimeout(autoSlide, 3000);
+      }
+    });
+    ; // Define a timer variable
+
+    // ...
+
+  </script>
+
+</html>
